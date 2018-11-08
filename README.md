@@ -1,6 +1,6 @@
 # react-webcomponent-example
 
-This repo demonstrates surfacing of react components within a W3C Web Component custom tag.
+This repo demonstrates surfacing of react components within a W3C Web Component custom tag.  Please refer to `src/index.tsx` to see how this works.
 
 ## Install
 
