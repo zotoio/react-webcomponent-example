@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components ExampleGraph 1`] = `
+<div
+  className="sc-bdVaJa ethPza"
+>
+  <h1>
+    My Portfolio
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Components ExampleRest 1`] = `
+<div
+  className="sc-bwzfXH hRXDFi"
+>
+  <h2>
+    Stocks
+  </h2>
+</div>
+`;
