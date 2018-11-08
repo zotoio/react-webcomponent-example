@@ -16,7 +16,9 @@ class ReactWebcomponent extends LitElement {
 
     protected render() {
         ReactDOM.render(<App />, this);
-        return html`<slot></slot>`;
+        return html`
+            <slot></slot>
+        `;
     }
 }
 

@@ -11,7 +11,7 @@ This repo demonstrates surfacing of react components within a W3C Web Component 
 ## Rendering on another domain/port
 You can use an html page on a different port/domain to source the component bundle and render the web component.  After runing `yarn start` you can copy the `public/webcomponentsjs dir to your static location as below.
 
-The below example is assuming that you are running an http-server in the `build` dir on port 3000 (update filename), and that you are serving this html on another local port.
+The below example is assuming that you have executed `yarn start`, and also have a running http-server in the `build` dir on port 4000 in order to source the js bundle (update filename).
 
 ```html
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ The below example is assuming that you are running an http-server in the `build`
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="webcomponentsjs/webcomponents-loader.js"></script>
-    <script type="module" src="http://localhost:4000/static/js/main.65f2147b.js"></script>
+    <script type="module" src="http://localhost:4000/static/js/main.[HASH].js"></script>
   </head>
 <body>
   <div style="width: 30%;float: left">
