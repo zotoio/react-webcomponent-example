@@ -26,7 +26,7 @@
     "prebuild": "yarn test:nowatch",
     "prestart": "yarn lint",
     "pretest": "yarn lint",
-    "commit": "yarn test && ./node_modules/.bin/git-cz",
+    "commit": "yarn test:nowatch && ./node_modules/.bin/git-cz",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "devDependencies": {
